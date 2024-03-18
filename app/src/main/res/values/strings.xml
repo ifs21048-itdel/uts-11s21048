@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="icon_famili_info">Ikon Famili</string>
+    <string name="famili_info">Nama Famili</string>
+    <string name="deskripsi_info">Deskripsi</string>
+    <string name="periode_info">Periode Hidup</string>
+    <string name="karakteristik_info">Karakteristik</string>
+    <string name="habitat_info">Habitat</string>
+    <string name="perilaku_info">Perilaku</string>
+    <string name="klasifikasi_info">Klasifikasi</string>
+
+    <!-- String array for dinosaur family data -->
+    <string-array name="famili_data">
+        <item>Theropoda</item>
+        <item>Sauropodomorpha</item>
+        <item>Ornithischia</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Therizinosauria</item>
+        <item>Ankylosauria</item>
+        <item>Pterosauria</item>
+    </string-array>
+
+    <string-array name="icon_data">
+        <item>@drawable/famili1</item>
+        <item>@drawable/famili2</item>
+        <item>@drawable/famili3</item>
+        <item>@drawable/famili4</item>
+        <item>@drawable/famili5</item>
+        <item>@drawable/famili6</item>
+        <item>@drawable/famili7</item>
+        <item>@drawable/famili8</item>
+    </string-array>
+
+    <!-- String array for dinosaur descriptions -->
+    <string-array name="deskripsi_data">
+        <item>Dinosaurus karnivora bipedal dengan kaki panjang, cakar tajam, dan rahang yang dilengkapi dengan gigi tajam.</item>
+        <item>Dinosaurus herbivora dengan tubuh besar, leher panjang, dan ekor yang panjang.</item>
+        <item>Dinosaurus herbivora dengan rahang khusus yang berbentuk seperti paruh burung.</item>
+        <item>Dinosaurus ini terkenal dengan tanduk dan bentuk tubuhnya yang besar.</item>
+        <item>Kelompok ini juga dikenal sebagai "dinosaurus bebek" karena rahang mereka yang datar dan gigi yang cocok untuk mengunyah tumbuhan.</item>
+        <item>Dinosaurus ini memiliki ciri-ciri unik seperti cakar panjang dan leher yang panjang.</item>
+        <item>Dinosaurus ini memiliki tubuh yang dilapisi oleh duri dan lempengan tulang.</item>
+        <item>Meskipun bukan dinosaurus dalam arti sejati, pterosaur adalah reptil terbang yang hidup bersama-sama dengan dinosaurus.</item>
+    </string-array>
+
+    <!-- String array for dinosaur lifespan -->
+    <string-array name="periode_data">
+        <item>Hidup selama periode Trias hingga Kretaseus.</item>
+        <item>Umumnya hidup selama periode Jura hingga Kretaseus.</item>
+        <item>Kebanyakan hidup selama periode Jura dan Kretaseus.</item>
+        <item>Umumnya hidup selama periode Kapur Akhir, sekitar 76 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup selama periode Kapur, sekitar 90 hingga 65 juta tahun yang lalu.</item>
+        <item>Umumnya hidup selama periode Kapur Awal hingga Kapur Akhir, sekitar 145 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup selama periode Kapur, sekitar 125 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup selama periode Jura hingga Kapur Akhir, sekitar 210 hingga 66 juta tahun yang lalu.</item>
+    </string-array>
+
+    <!-- String array for dinosaur characteristics -->
+    <string-array name="karakteristik_data">
+        <item>Umumnya memiliki tubuh yang ramping, kepala besar dengan rahang yang dilengkapi gigi tajam, dan sering kali memiliki cakar yang kuat di kaki depan.</item>
+        <item>Memiliki tubuh besar dengan kaki yang kuat, leher panjang untuk meraih daun-daun tinggi, dan ekor yang panjang untuk keseimbangan.</item>
+        <item>Memiliki rahang yang dilengkapi dengan gigi-gigi pengunyah yang cocok untuk mengunyah tumbuhan.</item>
+        <item>Umumnya memiliki tanduk dan bentuk tubuh yang besar.</item>
+        <item>Rahang mereka datar dan gigi yang cocok untuk mengunyah tumbuhan.</item>
+        <item>Cakar panjang dan leher yang panjang.</item>
+        <item>Tubuh yang dilapisi oleh duri dan lempengan tulang.</item>
+        <item>Reptil terbang yang hidup bersama-sama dengan dinosaurus.</item>
+    </string-array>
+
+    <!-- String array for dinosaur habitats -->
+    <string-array name="habitat_data">
+        <item>Ditemukan di berbagai habitat, termasuk dataran terbuka, hutan, dan daerah rawa-rawa.</item>
+        <item>Biasanya ditemukan di dataran rendah, dataran banjir, dan hutan berawa.</item>
+        <item>Hidup di berbagai habitat, termasuk hutan, padang rumput, dan wilayah berawa.</item>
+        <item>Ditemukan di berbagai wilayah, termasuk dataran tinggi, dataran rendah, hutan, dan dataran berawa.</item>
+        <item> Biasanya hidup di wilayah berawa, dataran banjir, dan daerah dengan sumber air yang melimpah.</item>
+        <item>Hidup di berbagai tipe habitat, termasuk hutan, dataran tinggi, dan daerah berawa.</item>
+        <item>Biasanya ditemukan di daerah-daerah yang berawa atau berawa-rawa, tetapi juga dapat ditemukan di dataran tinggi dan daerah pedalaman yang berhutan.</item>
+        <item>Terbang di udara, tetapi mungkin beristirahat dan berkembang biak di daerah-daerah pesisir, hutan, dan dataran terbuka.</item>
+    </string-array>
+
+    <!-- String array for dinosaur behaviors -->
+    <string-array name="perilaku_data">
+        <item>Diperkirakan bahwa beberapa theropoda berburu secara sosial, sementara yang lain mungkin menjadi pemangsa soliter.</item>
+        <item>Sauropodomorpha diyakini berperilaku herbivora, menghabiskan sebagian besar waktu mereka makan dan mencari makanan.</item>
+        <item>Diperkirakan menjadi herbivora dan mungkin memiliki perilaku sosial untuk melindungi diri dari pemangsa.</item>
+        <item>Ceratopsia diyakini memiliki perilaku herbivora, yang berarti mereka menghabiskan sebagian besar waktu mereka mencari dan mengonsumsi tumbuhan.</item>
+        <item>Hadrosauridae juga dikenal sebagai "dinosaurus bebek" karena rahang mereka yang datar dan gigi yang cocok untuk mengunyah tumbuhan.</item>
+        <item>Therizinosauria diperkirakan memiliki perilaku herbivora, dengan cakar panjang mereka digunakan untuk mencabik tumbuhan.</item>
+        <item>Ankylosauria dikenal memiliki tubuh yang dilapisi oleh duri dan lempengan tulang, yang berfungsi sebagai perlindungan dari pemangsa.</item>
+        <item>Pterosauria, meskipun bukan dinosaurus dalam arti sejati, diperkirakan memiliki perilaku terbang yang aktif.</item>
+    </string-array>
+
+    <!-- String array for dinosaur classifications -->
+    <string-array name="klasifikasi_data">
+        <item>Contoh terkenal termasuk Tyrannosaurus rex, Velociraptor, dan Spinosaurus.</item>
+        <item>Contoh termasuk Brachiosaurus, Diplodocus, dan Apatosaurus.</item>
+        <item>Contoh termasuk Triceratops, Stegosaurus, dan Ankylosaurus.</item>
+        <item>Contoh terkenal termasuk Triceratops, Styracosaurus, dan Protoceratops.</item>
+        <item>Contoh termasuk Parasaurolophus, Edmontosaurus, dan Maiasaura.</item>
+        <item>Contoh termasuk Therizinosaurus, Nothronychus, dan Beipiaosaurus.</item>
+        <item>Contoh termasuk Ankylosaurus, Euoplocephalus, dan Nodosaurus.</item>
+        <item>Contoh termasuk Pteranodon, Quetzalcoatlus, dan Dimorphodon.</item>
+    </string-array>
+
+    <!--String untuk contoh dinoasurus-->
+    <string name="icon_dino_info">Ikon Dino</string>
+    <string name="nama_dino_info">Nama Dino</string>
+    <string name="deskripsi_dino_info">Deskripsi Dino</string>
+    <string name="karakteristik_dino_info">Karakteristik Dino</string>
+    <string name="kelompok_dino_info">Kelompok Dino</string>
+    <string name="habitat_dino_info">Habitat Dino</string>
+    <string name="makanan_dino_info">Makanan Dino</string>
+    <string name="panjang_dino_info">Panjang Dino</string>
+
+    <string-array name="nama_dino_info">
+        <item>Tyrannosaurus rex</item>
+        <item>Triceratops</item>
+        <item>Stegosaurus</item>
+        <item>Velociraptor</item>
+        <item>Brachiosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Allosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Pteranodon</item>
+        <item>Spinosaurus</item>
+        <item>Diplodocus</item>
+        <item>Archaeopteryx</item>
+        <item>Euoplocephalus</item>
+        <item>Styracosaurus</item>
+        <item>Therizinosaurus</item>
+    </string-array>
+
+    <string-array name="deskripsi_dino_info">
+        <item>Raja dari dinosaurus karnivora dengan gigi tajam, cakar besar, dan tubuh yang besar.</item>
+        <item>Dinosaurus herbivora dengan tiga tanduk besar di kepala dan tubuh yang besar.</item>
+        <item>Dinosaurus herbivora dengan lempengan tulang di punggungnya dan duri di ekor.</item>
+        <item>Dinosaurus karnivora kecil dan cerdas dengan cakar tajam dan kepala yang panjang.</item>
+        <item>Dinosaurus herbivora raksasa dengan leher panjang dan tubuh yang besar.</item>
+        <item>Dinosaurus herbivora dengan rongga pada tengkoraknya yang menghasilkan suara bersenandung.</item>
+        <item>Dinosaurus karnivora besar dengan gigi tajam dan kaki yang kuat.</item>
+        <item>Dinosaurus herbivora dengan tubuh yang dilindungi oleh duri dan lempengan tulang.</item>
+        <item>Pterosauria terbesar dengan sayap yang lebar dan paruh yang panjang.</item>
+        <item>Dinosaurus karnivora raksasa dengan jaringan berbentuk punggung kapal layar di punggungnya.</item>
+        <item>Dinosaurus herbivora dengan leher dan ekor yang panjang, serta tubuh yang besar.</item>
+        <item>Makhluk bertubuh kecil yang dianggap sebagai salah satu nenek moyang burung modern.</item>
+        <item>Dinosaurus herbivora dengan tubuh yang dilindungi oleh duri dan lempengan tulang.</item>
+        <item>Dinosaurus herbivora dengan tanduk besar di kepala yang mirip seperti Triceratops.</item>
+        <item>Dinosaurus herbivora besar dengan cakar panjang seperti penyangga dan leher yang panjang.</item>
+    </string-array>
+
+    <string-array name="karakteristik_dino_data">
+        <item>Raja dari dinosaurus karnivora dengan gigi tajam, cakar besar, dan tubuh yang besar.</item>
+        <item>Dinosaurus herbivora dengan tiga tanduk besar di kepala dan tubuh yang besar.</item>
+        <item>Dinosaurus herbivora dengan lempengan tulang di punggungnya dan duri di ekor.</item>
+        <item>Dinosaurus karnivora kecil dan cerdas dengan cakar tajam dan kepala yang panjang.</item>
+        <item>Dinosaurus herbivora raksasa dengan leher panjang dan tubuh yang besar.</item>
+        <item>Dinosaurus herbivora dengan rongga pada tengkoraknya yang menghasilkan suara bersenandung.</item>
+        <item>Dinosaurus karnivora besar dengan gigi tajam dan kaki yang kuat.</item>
+        <item>Dinosaurus herbivora dengan tubuh yang dilindungi oleh duri dan lempengan tulang.</item>
+        <item>Pterosauria terbesar dengan sayap yang lebar dan paruh yang panjang.</item>
+        <item>Dinosaurus karnivora raksasa dengan jaringan berbentuk punggung kapal layar di punggungnya.</item>
+        <item>Dinosaurus herbivora dengan leher dan ekor yang panjang, serta tubuh yang besar.</item>
+        <item>Makhluk bertubuh kecil yang dianggap sebagai salah satu nenek moyang burung modern.</item>
+        <item>Dinosaurus herbivora dengan tubuh yang dilindungi oleh duri dan lempengan tulang.</item>
+        <item>Dinosaurus herbivora dengan tanduk besar di kepala yang mirip seperti Triceratops.</item>
+        <item>Dinosaurus herbivora besar dengan cakar panjang seperti penyangga dan leher yang panjang.</item>
+    </string-array>
+
+    <string-array name="kelompok_dino_data">
+        <item>Theropoda</item>
+        <item>Ceratopsia</item>
+        <item>Stegosauria</item>
+        <item>Theropoda</item>
+        <item>Sauropodomorpha</item>
+        <item>Hadrosauridae</item>
+        <item>Theropoda</item>
+        <item>Ankylosauria</item>
+        <item>Pterosauria</item>
+        <item>Spinosauridae</item>
+        <item>Sauropodomorpha</item>
+        <item>Theropoda</item>
+        <item>Ankylosauria</item>
+        <item>Ceratopsia</item>
+        <item>Therizinosauria</item>
+    </string-array>
+
+    <string-array name="habitat_dino_data">
+        <item>Ditemukan di berbagai habitat, termasuk dataran terbuka, hutan, dan daerah rawa-rawa.</item>
+        <item>Umumnya ditemukan di dataran tinggi dan daerah berhutan.</item>
+        <item>Hidup di hutan dan wilayah berawa yang lembap.</item>
+        <item>Sering ditemukan di hutan dan daerah berbatu-batu.</item>
+        <item>Umumnya ditemukan di dataran tinggi dan daerah berhutan.</item>
+        <item>Terutama ditemukan di daerah berawa-rawa dan dataran rendah yang berawa.</item>
+        <item>Hidup di dataran rendah dan hutan yang lebat.</item>
+        <item>Umumnya ditemukan di daerah berawa atau berawa-rawa yang luas.</item>
+        <item>Sering ditemukan di daerah pesisir dan wilayah yang terbuka.</item>
+        <item>Terutama ditemukan di wilayah air tawar dan rawa-rawa.</item>
+        <item>Umumnya ditemukan di daerah berawa atau berawa-rawa yang luas.</item>
+        <item>Sering ditemukan di daerah berawa-rawa dan wilayah hutan yang lebat.</item>
+        <item>Umumnya ditemukan di daerah hutan dan rawa-rawa yang luas.</item>
+        <item>Terutama ditemukan di dataran tinggi dan daerah berhutan.</item>
+        <item>Umumnya ditemukan di daerah berawa-rawa dan dataran rendah yang berawa.</item>
+    </string-array>
+
+    <string-array name="makanan_dino_data">
+        <item>Umumnya pemangsa, memakan hewan-hewan kecil dan kadang-kadang dinosaurus lain.</item>
+        <item>Herbivora, biasanya memakan tumbuhan seperti daun, dedaunan, dan tunas.</item>
+        <item>Makanan utama adalah tumbuhan seperti pakis, lumut, dan tanaman rendah.</item>
+        <item>Pemangsa yang lincah, memangsa hewan-hewan kecil dan serangga.</item>
+        <item>Herbivora, mengonsumsi banyak tumbuhan tinggi dan dedaunan.</item>
+        <item>Makanan utama adalah tumbuhan seperti dedaunan, tunas, dan buah-buahan.</item>
+        <item>Memangsa hewan-hewan kecil seperti mamalia kecil dan dinosaurus lain.</item>
+        <item>Herbivora, mengonsumsi berbagai jenis tumbuhan seperti dedaunan dan tanaman berbunga.</item>
+        <item>Makanan utama adalah ikan dan hewan laut kecil yang ditangkap saat terbang di atas air.</item>
+        <item>Pemangsa, memangsa ikan dan dinosaurus lain di perairan.</item>
+        <item>Herbivora, memakan daun-daunan dan tanaman tinggi.</item>
+        <item>Umumnya pemangsa, memakan serangga, reptil kecil, dan hewan kecil lainnya.</item>
+        <item>Herbivora, biasanya mengonsumsi dedaunan, tunas, dan tanaman berduri.</item>
+        <item>Herbivora, memakan dedaunan dan tanaman rendah seperti pakis dan lumut.</item>
+        <item>Herbivora, mengonsumsi dedaunan, tunas, dan tanaman tinggi.</item>
+    </string-array>
+
+    <string-array name="panjang_dino_data">
+        <item>12 meter</item>
+        <item>9 meter</item>
+        <item>9 meter</item>
+        <item>2 meter</item>
+        <item>25 meter</item>
+        <item>10 meter</item>
+        <item>8 meter</item>
+        <item>6 meter</item>
+        <item>7 meter</item>
+        <item>15 meter</item>
+        <item>27 meter</item>
+        <item>0.5 meter</item>
+        <item>9 meter</item>
+        <item>5 meter</item>
+        <item>10 meter</item>
+    </string-array>
+
+</resources>
