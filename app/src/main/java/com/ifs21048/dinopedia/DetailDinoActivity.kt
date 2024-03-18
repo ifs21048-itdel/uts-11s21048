@@ -1,4 +1,4 @@
-package com.ifs21048.dinopedia
+//package com.ifs21048.dinopedia
 //
 //import android.os.Build
 //import androidx.appcompat.app.AppCompatActivity
@@ -31,15 +31,15 @@ package com.ifs21048.dinopedia
 //        }
 //    }
 //
-//    private fun loadData(famili: Famili) {
-//        binding.ivDetailIcon.setImageResource(famili.gambar)
-//        binding.tvDetailFamili.text = famili.famili
-//        binding.tvDetailDescription.text = famili.deskripsi
-//        binding.tvDetailPeriode.text = famili.periode
-//        binding.tvDetailKarakteristik.text = famili.karakteristik
-//        binding.tvDetailHabitat.text = famili.habitat
-//        binding.tvDetailPerilaku.text = famili.perilaku
-//        binding.tvDetailKlasifikasi.text = famili.klasifikasi
+//    private fun loadData(dino: Dino) {
+//        binding.ivDetailDinoIcon.setImageResource(dino.gambar)
+//        binding.tvDetailFamili.text = dino.nama
+//        binding.tvDetailDescription.text = dino.deskripsi
+//        binding.tvDetailPeriode.text = dino.kelompok
+//        binding.tvDetailKarakteristik.text = dino.karakteristik
+//        binding.tvDetailHabitat.text = dino.habitat
+//        binding.tvDetailMakanan.text = dino.makanan
+//        binding.tvDetailPanjang.text = dino.panjang
 //    }
 //
 //    override fun onOptionsItemSelected(item: MenuItem): Boolean {
