@@ -26,11 +26,12 @@
             tools:ignore="ImageContrastCheck" />
 
         <TextView
-            android:id="@+id/tvDetailFamili"
+            android:id="@+id/tvDetailNamaDino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/nama_dino_info"
             android:textSize="24sp"
+            style="@style/TextBold.H6"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -46,47 +47,25 @@
             android:layout_marginEnd="16dp"
             android:text="@string/deskripsi_dino_info"
             android:textAlignment="textStart"
-            android:textSize="16sp"
+            style="@style/Text.P7"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailFamili" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailNamaDino" />
 
         <TextView
-            android:id="@+id/tvPeriode"
+            android:id="@+id/tvKarakteristikDino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="4dp"
             android:text="@string/karakteristik_dino_info"
-            android:textSize="20sp"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf= "@+id/tvDetailDescription" />
-
-        <TextView
-            android:id="@+id/tvDetailPeriode"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="@string/karakteristik_dino_info"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvPeriode" />
-
-        <TextView
-            android:id="@+id/tvKarakteristik"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:text="@string/karakteristik_dino_info"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailPeriode" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailDescription" />
 
         <TextView
             android:id="@+id/tvDetailKarakteristik"
@@ -95,117 +74,208 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:text="@string/karakteristik_dino_info"
-            android:textSize="16sp"
+            style="@style/Text.P7"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvKarakteristik" />
+            app:layout_constraintTop_toBottomOf="@+id/tvKarakteristikDino" />
 
         <TextView
-            android:id="@+id/tvHabitat"
+            android:id="@+id/tvKelompokDino"
+            style="@style/TextBold.H6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="@string/kelompok_dino_info"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintHorizontal_bias="0.057"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDetailKarakteristik" />
 
         <TextView
-            android:id="@+id/tvDetailHabitat"
+            android:id="@+id/tvDetailKelompokDino"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:text="@string/kelompok_dino_info"
-            android:textAlignment="textStart"
-            android:textSize="16sp"
+            style="@style/Text.P7"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvHabitat" />
+            app:layout_constraintTop_toBottomOf="@+id/tvKelompokDino" />
+
         <TextView
-            android:id="@+id/tvDetailPerilaku"
+            android:id="@+id/tvHabitatDino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/habitat_dino_info"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailKelompokDino" />
+
+        <TextView
+            android:id="@+id/tvDetailHabitatDino"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:text="@string/habitat_dino_info"
             android:textAlignment="textStart"
-            android:textSize="16sp"
+            style="@style/Text.P7"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvPerilaku" />
+            app:layout_constraintTop_toBottomOf="@+id/tvHabitatDino" />
 
         <TextView
-            android:id="@+id/tvPerilaku"
+            android:id="@+id/tvMakananDino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/habitat_dino_info"
-            android:textSize="20sp"
+            android:text="@string/makanan_dino_info"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailHabitatDino" />
+
+        <TextView
+            android:id="@+id/tvDetailMakananDino"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/makanan_dino_info"
+            android:textAlignment="textStart"
+            style="@style/Text.P7"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMakananDino" />
+
+        <TextView
+            android:id="@+id/tvPanjangDino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/panjang_dino_info"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.047"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailHabitat" />
-
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailMakananDino" />
 
         <TextView
-            android:id="@+id/tvDetailMakanan"
+            android:id="@+id/tvDetailPanjangDino"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/makanan_dino_info"
+            android:text="@string/panjang_dino_info"
             android:textAlignment="textStart"
-            android:textSize="16sp"
+            style="@style/Text.P7"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Klasifikasi" />
+            app:layout_constraintTop_toBottomOf="@+id/tvPanjangDino" />
 
         <TextView
-            android:id="@+id/Klasifikasi"
+            android:id="@+id/tvTinggiDino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/makanan_dino_info"
-            android:textSize="20sp"
+            android:text="@string/tinggi_dino_info"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailPerilaku" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailPanjangDino" />
 
         <TextView
-            android:id="@+id/tvDetailPanjang"
+            android:id="@+id/tvDetailTinggiDino"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/panjang_dino_info"
+            android:text="@string/tinggi_dino_info"
             android:textAlignment="textStart"
-            android:textSize="16sp"
+            style="@style/Text.P7"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Panjang" />
+            app:layout_constraintTop_toBottomOf="@+id/tvTinggiDino" />
 
         <TextView
-            android:id="@+id/Panjang"
+            android:id="@+id/tvBobotDino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/panjang_dino_info"
-            android:textSize="20sp"
+            android:text="@string/bobot_dino_info"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.044"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailKlasifikasi" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailTinggiDino" />
 
+        <TextView
+            android:id="@+id/tvDetailBobotDino"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/bobot_dino_info"
+            android:textAlignment="textStart"
+            style="@style/Text.P7"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvBobotDino" />
 
+        <TextView
+            android:id="@+id/tvKelemahanDino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kelemahan_dino_info"
+            android:textSize="17sp"
+            style="@style/TextBold.H6"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailBobotDino" />
+
+        <TextView
+            android:id="@+id/tvDetailKelemahanDino"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/kelemahan_dino_info"
+            android:textAlignment="textStart"
+            style="@style/Text.P7"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvKelemahanDino"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

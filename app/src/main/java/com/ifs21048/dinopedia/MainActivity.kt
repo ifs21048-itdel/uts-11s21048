@@ -50,11 +50,12 @@ class MainActivity : AppCompatActivity() {
         val dataHabitat = resources.getStringArray(R.array.habitat_data)
         val dataPerilaku = resources.getStringArray(R.array.perilaku_data)
         val dataKlasifikasi = resources.getStringArray(R.array.klasifikasi_data)
+        val dataIndexStart = resources.getStringArray(R.array.start_dino)
+        val dataIndexEnd = resources.getStringArray(R.array.end_dino)
 
-
-        val listFruit = ArrayList<Famili>()
+        val listFamili = ArrayList<Famili>()
         for (i in dataFamili.indices) {
-            val fruit = Famili(
+            val famili = Famili(
                 dataFamili[i],
                 dataIcon.getResourceId(i, -1),
                 dataDescription[i],
@@ -62,11 +63,13 @@ class MainActivity : AppCompatActivity() {
                 dataKarakteristik[i],
                 dataHabitat[i],
                 dataPerilaku[i],
-                dataKlasifikasi[i]
+                dataKlasifikasi[i],
+                dataIndexStart[i].toInt(),
+                dataIndexEnd[i].toInt()
             )
-            listFruit.add(fruit)
+            listFamili.add(famili)
         }
-        return listFruit
+        return listFamili
     }
 
     private fun showRecyclerList() {
@@ -75,9 +78,9 @@ class MainActivity : AppCompatActivity() {
         } else {
             binding.rvFamili.layoutManager = LinearLayoutManager(this)
         }
-        val listFruitAdapter = ListFamiliAdapter(dataFamili)
-        binding.rvFamili.adapter = listFruitAdapter
-        listFruitAdapter.setOnItemClickCallback(object : ListFamiliAdapter.OnItemClickCallback {
+        val listFamilyAdapter = ListFamiliAdapter(dataFamili)
+        binding.rvFamili.adapter = listFamilyAdapter
+        listFamilyAdapter.setOnItemClickCallback(object : ListFamiliAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Famili) {
                 showSelectedFamili(data)
             }

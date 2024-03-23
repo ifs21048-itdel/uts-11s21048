@@ -1,9 +1,12 @@
 package com.ifs21048.dinopedia
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.TextView
+import com.ifs21048.dinopedia.DinoActivity.Companion.EXTRA_FAMILI
 import com.ifs21048.dinopedia.databinding.ActivityDetailFamiliActivtityBinding
 
 class DetailFamiliActivtity : AppCompatActivity() {
@@ -28,6 +31,18 @@ class DetailFamiliActivtity : AppCompatActivity() {
             loadData(famili!!)
         } else {
             finish()
+        }
+
+        val dinoBtn = findViewById<TextView>(R.id.buttonDino)
+        dinoBtn.setOnClickListener({
+            val intent = Intent(this, DinoActivity::class.java)
+            startActivity(intent)
+        })
+
+        binding.buttonDino.setOnClickListener{
+            val intentWithData = Intent(this@DetailFamiliActivtity, DinoActivity::class.java)
+            intentWithData.putExtra(DinoActivity.EXTRA_FAMILI, famili!!)
+            startActivity(intentWithData)
         }
     }
 
@@ -55,4 +70,5 @@ class DetailFamiliActivtity : AppCompatActivity() {
     companion object {
         const val EXTRA_FAMILI = "extra_famili"
     }
+
 }

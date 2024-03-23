@@ -16,7 +16,7 @@
         tools:ignore="UseCompoundDrawables">
 
         <ImageView
-            android:id="@+id/familiItem"
+            android:id="@+id/dinoItem"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:contentDescription="@string/icon_dino_info"
@@ -29,7 +29,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/tvItemFamili"
+                android:id="@+id/tvItemDino"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
